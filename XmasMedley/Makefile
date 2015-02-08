@@ -1,5 +1,5 @@
 LYFLAGS=-dno-point-and-click
-LILYPOND=/Applications/Lilypond.app/Contents/Resources/bin/lilypond $(LYFLAGS)
+LILYPOND=lilypond $(LYFLAGS)
 
 all: score parts
 
