@@ -1,5 +1,5 @@
 LYFLAGS=-dno-point-and-click
-LILYPOND=/Applications/Lilypond.app/Contents/Resources/bin/lilypond $(LYFLAGS)
+LILYPOND=lilypond $(LYFLAGS)
 
 # Includes targets for all plausible combinations of {trumpet1, trumpet2, horn, trombone, tuba/bass trombone}
 # ttht: tpt1, tpt2, horn, trombone
