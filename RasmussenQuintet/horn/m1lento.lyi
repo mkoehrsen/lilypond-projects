@@ -1,0 +1,8 @@
+% Lento
+% Page 1
+hornMvmtILento = \relative c'' {
+	\partial 2 r2 |
+	c4\p( b a g) | fis2\accent( g4\!) r4 | r4 r8. d16\<( e8.[) f16( g8.) f16]\! | e2\>( d8\!) r8 r4 | R1 |
+	r2 r8. bes16[( f'8.) ees16]( | ees8.[) d16( ees8. e16]\< f8.[) e16( f8. fis16] | g4. \!) r8 r2 | 
+	r8. g16\p[( e8.) g16] g2 | d1\fermata
+}

@@ -1,0 +1,5 @@
+soprano = \relative c'' {
+	\key c \major
+	\time 4/4
+	e1 \bar "||"
+}

@@ -1,0 +1,5 @@
+alto = \relative c' {
+	\key c \major
+	\time 4/4
+	g'1 \bar "||"
+}

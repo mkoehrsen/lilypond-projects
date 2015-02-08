@@ -1,0 +1,10 @@
+\header
+{
+  title = "Template"
+  subtitle = "Subtitle"
+  composer = "Composer"
+  arranger = "Arranger"
+  instrument = \instrument
+  tagline = ""
+}
+

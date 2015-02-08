@@ -1,0 +1,8 @@
+% Lento
+% Page 1
+fluteMvmtILento = \relative c'' {
+	\partial 2 r2 |
+	R1 | r2 r8. c16\p[( c'8. bes16] | a8.) g16( f8.) r16 r2 | R1 | r8. c16( bes'8.) a16( aes8.[) g16( f8.) ees16]( |
+	des2)~ des4.. c16 | << f1~ { s2 s2\< } >> | f8.[\! f16( d'8.) d16]( c8.\>[) a16( f8.\!]) r16 | 
+	R1 | r1\fermata
+}

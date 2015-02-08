@@ -1,0 +1,16 @@
+\include "oboe/m1lento.lyi"
+\include "oboe/m1allegro.lyi"
+
+oboe = {
+	\transposition c
+	\time 4/4 \key f \major
+	\tempo "Lento"
+	\oboeMvmtILento
+
+	\tempo "Allegro Moderato"
+	\bar "|:"
+	\oboeMvmtIAllegro
+	\bar "||"
+	
+	
+}

@@ -1,0 +1,10 @@
+\header
+{
+  title = "Chorfuge"
+  subtitle = ""
+  composer = "Max Reger"
+  arranger = ""
+  instrument = \instrument
+  tagline = ""
+}
+

@@ -1,0 +1,3 @@
+tuba = \relative c, {
+	\transposition c
+}

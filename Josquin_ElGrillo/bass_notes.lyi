@@ -1,0 +1,29 @@
+bass = \relative c {
+  \time 2/2
+  \key c \major
+
+  \repeat volta 1 {
+    % bar 1
+    f1 | g2( d2) | c2 r4 g4 | g4 g4 d'4 d4 | 
+    g,2 g4 g4 | c4 c4 c4 c4 | 
+    c1~ | c1~ | c1 | 
+    c1\fermata |
+
+    % bar 11
+    r2 f4 f4 | r2 f4 f4 | r2 f4 f4 | r2 f4 f4 |
+    f8 f8 f8 f8 f8 f8 f8 f8  | f8 f8 f8 f8 c4 c4 |
+  }
+
+  \repeat volta 1 {
+    % bar 17
+    f1 | g2( d2) | c2 r4 g4 | g4 g4 d'4 d4 | g,2 g2\fermata _ \markup { \bold "fine" } \bar "||" | \break
+
+    % bar 22
+    c4 c4 c2 | \time 3/2 c2( c4) c4 d4 d4 | \time 2/2 g,2 g2 |
+    f'4 f4 f4.( e8) | f4 g4 d4 d4 | g,2 g2\fermata |
+  }
+
+  % bar 28
+  g2 d'2 | g,2 c2 | d2 a2 | d4 d4 r4 a4 |
+  d2( a2) | d4 d4 r4 a4 | d2( a2) | d4 d4 r4 e4 | c4( d4) a2 | d1\fermata _ \markup { \bold "D.C. al fine" } \bar "|." 
+}

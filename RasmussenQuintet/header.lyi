@@ -1,0 +1,9 @@
+\header
+{
+  title = "Quintet"
+  subtitle = "for Flute, Oboe, Clarinet, Horn, and Bassoon"
+  composer = "Peter Rasmussen"
+  instrument = \instrument
+  tagline = ""
+}
+

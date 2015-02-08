@@ -1,0 +1,3 @@
+trumpetII = \relative c' {
+	\transposition bes
+}

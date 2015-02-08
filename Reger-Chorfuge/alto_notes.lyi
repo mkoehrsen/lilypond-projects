@@ -1,0 +1,35 @@
+% The notes are entered as written in the original score
+% but the extra transposition here is to put it in a better range for brass
+alto = \transpose des c \relative c' {
+	\key des \major
+	\time 3/4
+	\partial 4 r4 | R2.*3 |
+	r4 r4 des | aes'4( g) f | ees2 aes4 | bes4 bes8 des c bes |
+	
+	% bar 8
+	c4 bes aes8 ges | f2 ges4 | f4 ees8 ges f des | c4 aes'2~ | aes2 f4 |
+	ees8 bes c des ees f | g2 aes4 | des,8 ees f g aes bes | c2 bes8 aes | g8 c b c bes g |
+	
+	% bar 18
+	ees2 des4 | ees8 ges aes c bes aes | f2 g4~ | g2 aes4 | des4 c bes | 
+	aes2 des4 | ees4 ees8 ges f ees | f4 ees des | des4 c8 bes aes4 | aes2 ges8 f | ees8 f g aes g bes | 
+	
+	% bar 29
+	aes2 ges!4 | f2.~ | f4 ges aes | aes2. | aes2. | aes2. | aes2. |
+	aes8 ges f ees des c | c2. | des2. | c2 f4 |
+	
+	% bar 40
+	bes4 aes ges | f2 bes4 | c4 c8 ees des c | des4 c bes | b2( a4) | fis2. | d4 g2 | g2. | g8 a b c d e |
+	d2. | c2.~ | c4 a8 c b g | aes4 f8 aes g ees | d4 c8 ees d b | b2.~ | b2. | b8 c d ees f g |
+	
+	% bar 57
+	ees2. | f4 f8 aes ges! ees | ees2.~ | ees2. | f2. |
+	f2. | f2. | f4 ees des( | aes'4 ges) f | ees2 ees4 | ees4 ees8 ges8 f4 | ees4 des c |
+	
+	% bar 69
+	des2. | bes'2. | des2.~ | des2. | des4 c8 ees des bes | aes4 bes c | des2. | des2. | bes2. | aes2.\fermata
+	
+	\bar "|."
+	
+	
+}

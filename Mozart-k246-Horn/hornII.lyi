@@ -1,0 +1,54 @@
+hornII = \relative c' {
+   \time 4/4
+
+	% bar 1
+   c2\f r2 | c'4 c8. c16 c4 c4 | c1~ | c8 c g e c4 r4 | r1 | r1 |
+   g'4\f c4 \grace e8( d4) c8-. g-. | e4 r4 r2 | g,1\p ~ | g1 | 
+
+   % bar 11
+   g'4\f-. c4-. \grace e8( d4) c8-. g-. | e4 c8 c c2 ~ | c4 c8 c c2 ~ | c4 r4 r2 | r1 |
+   r4 g'8-.\f g-. c4. c8 | g4 g8-. g-. c4. c8 | g4 r g r | R1*4
+
+   %bar 23
+   c,2\f ~ c8 c c c | c2 ~ c8 c'8 c c | c4 c,8 e g4 g,4 |
+   c2 ~ c8 c c c | c2 ~ c8 c'8 c c | c4 c,8 e g4 g,4 | c4 r4 r2 | r1 | r1 |
+   g'1\f | c2. g4 | g4 c2 g4 | e4 e'8 e16 c g8 c g g16 e | c2 e4-. g-. | c4 r4 r2 |
+
+   %bar 38
+   R1 * 10
+
+   %bar 48
+   r4 c,8\f c c2 ~ | c4 c8 c c2 ~ | c4 r4 r2 | R1*3 |
+   r4 g'8\f g c4. c8 | g4 g8 g c4. c8 | g4 r g r |
+
+   %bar 57
+   R1*17 | d'1\p | r1 | d1 | R1*6
+   g,,1\p ~ | g4 r4 r2 | R1*5 | d''1\cresc
+
+   %bar 91
+   g,2\f ~ g8 g g g | c2 ~ c8 c c c | d4 d8 d d4 d | g,2 ~ g8 g g g | c2 ~ c8 c c c | d4 d8 d d4 d | g,8 r8 r4 r2
+   r4 g4\f c d | g, r4 r2 |
+
+   %bar 100
+   R1*14 | r4 c\f d e | c r r2 | R1*13
+
+   %bar 129
+   g,1\p ~ | g1 ~ | g4 r4 r 2 | r 1 | c2\f r2 | c'4 c8. c16 c4 c | c c c c | c8 c g e c4 r4 |
+   g1\p ~ | g1 | g'4\f c4 \grace e8( d4) c8-. g-. | e4 r4 r2 | R1*3 |
+
+   %bar 144
+   r4 c8\f c c2 ~ | c4 c8 c c2 ~ | c4 r4 r2 | R1*3 | r4 g'8\f g c4. c8 | g4 g8 g c4. c8 | g4 r g r |
+   R1 * 17
+
+   %bar 170
+   e8-.\p r g-. r \grace d'16( c8-.) r g-. r | r1 | g8-. r c-. r \grace e16( d8-.) r c-. r 
+   R1*6 | c,1\p ~ | c4 r4 r2 | R1*4
+
+   %bar 185
+   r2 c'2\p | g1\cresc | c,4\f e'8 e16 c g8 c g g16 e | c4 r4 r2 | r1 | r1 |
+   g'2\f d'2 | c4 c,8. c16 c4 c8. c16 | c4 c8. c16 c4 c8. c16 | c4 c c c | g'2 r2\fermata 
+
+   %bar 196
+   c,2\f ~ c8 c c c | c2 ~ c8 c' c c | c4 c,8 e g4 g,4 | c2 ~ c8 c c c | c2 ~ c8 c' c c | c4 c,8 e g4 g,4 |
+   c4 e'8 e16 c g8 c g g16 e | c4 e e r ||
+}

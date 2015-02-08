@@ -1,0 +1,5 @@
+bass = \relative c' {
+	\key c \major
+	\time 4/4
+	c,1 \bar "||"
+}

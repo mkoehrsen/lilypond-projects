@@ -1,0 +1,16 @@
+\include "clarinet/m1lento.lyi"
+\include "clarinet/m1allegro.lyi"
+
+clarinet = {
+	\transposition bes
+	\time 4/4 \key g \major
+	\tempo "Lento"
+	\clarinetMvmtILento
+
+	\tempo "Allegro Moderato"
+	\bar "|:"
+	\clarinetMvmtIAllegro
+	\bar "||"
+	
+	
+}

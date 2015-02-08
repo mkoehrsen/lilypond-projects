@@ -1,0 +1,16 @@
+\include "horn/m1lento.lyi"
+\include "horn/m1allegro.lyi"
+
+horn = {
+	\transposition f
+	\time 4/4 \key c \major
+	\tempo "Lento"
+	\hornMvmtILento
+
+	\tempo "Allegro Moderato"
+	\bar "|:"
+	\hornMvmtIAllegro
+	\bar "||"
+	
+	
+}

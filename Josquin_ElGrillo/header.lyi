@@ -1,0 +1,10 @@
+\header
+{
+  title = "El Grillo"
+  subtitle = ""
+  composer = "Josquin des Prez"
+  arranger = ""
+  instrument = \instrument
+  tagline = ""
+}
+

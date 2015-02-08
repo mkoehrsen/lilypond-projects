@@ -1,0 +1,16 @@
+\include "flute/m1lento.lyi"
+\include "flute/m1allegro.lyi"
+
+flute = {
+	\transposition c
+	\time 4/4 \key f \major
+	\tempo "Lento"
+	\fluteMvmtILento
+
+	\tempo "Allegro Moderato"
+	\bar "|:"
+	\fluteMvmtIAllegro
+	\bar "||"
+	
+	
+}

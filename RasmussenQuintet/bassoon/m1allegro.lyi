@@ -1,0 +1,53 @@
+% Allegro Moderato
+bassoonMvmtIAllegro = \relative c {
+	\repeat volta 2 {
+	% Exposition -- next four lines repeat in recap
+	f2\f~ f8 r8 r4 | r8. d'16[( c8) r16 a16]( f8)[ r16 a16( bes8) r16 c16]( | d4) c-- bes-- a-- | 
+	g2~\accent g8[ r16 g,16 bes8 r16 d16 ] | g2~ g8 r8 r4 |
+	r8. d'16([ c8) r16 a16( ] g8)[ r16 bes16( d8) r16 g16] | 
+	c,2 c4-- c-- | f,2~\accent f4 r | r4 f-- r a-- | r4 bes-- bes,-- r | r4 g'-- r b--
+	
+	r4 c-- c,-- r | r1 | r4 r8. g'16( c8)[ r16 e16( c8) r16 a16( ] | g4.) r8 r2 |
+	r8. g,16\f( g'8) g~ g[ r16 g,16]( g'8) g~ | g8[ r16 g,16]( g'8) g~ g g,16( a) b16-. c-. d-. e-. | f2 d4 b
+	
+	% Page 2
+	g8 r8 r8 g'16( fis g8) r8 r8 b16 ( ais | b8) r8 r8 d16( cis d8) r8 r4 | c,2\p d4.( e8) | f2( g4.) r8 |
+	c4-- b-- a-- g-- | f-- d-- g2 | r8. c,16-.\mf d-. e-. f-. g-. a4 g | fis4 f f2\<
+	\times 2/3 { e8\f g f } \times 2/3 { e d c } \times 2/3 { b c d } \times 2/3 { g, a b } |
+	\times 2/3 { c e d } \times 2/3 { c b a } \times 2/3 { gis a b } \times 2/3 { e, fis gis } |
+	a4-- d-- g,-- c-- | f,--\dim b--\! e,-- a-- | r1 | r4 a4 d4. e8 | f2 g4\> g,\! |
+	\times 2/3 { c8-.\p e-. g-. } \times 2/3 { c-. g-. e-. } \times 2/3 { c'-. g-. e-. } \times 2/3 { c'-. g-. e-. } | g1 | 
+	c,4 r4 r2 | r4 g\cresc d'\! g | c,8\f r8 r4 r2 | r2 \times 2/3 { r8 a\f g } \times 2/3 { f e d } |
+	c4 r c' r | } % end repeat
+	\alternative { 
+		{ c,4 r4 r2 | }
+		{ c4 r4 r2 | }
+	}
+	r1 | r1 | r1 | r1
+
+	% Page 3
+	r2 r8. g'16\f[( d'8) r16 b16 ] | f'4 aes2. | g4\mf^"Solo" g \acciaccatura bes8( aes4.)( g8) | f8\<[( c' aes f']) ees4\>( d\!) |
+	des4\p des c4.( bes8) | aes2 bes4 bes,4 | ees4 r4 r2 | r1 r1 | r1 | g,4\mf^"Solo" g \acciaccatura bes8( aes4.)( g8) | 
+	c4 r4 r2 | c4\mf c \acciaccatura ees8( des4.)( c8) | f4 r4 r2 | des1 | des1( | c4\f) r4 c2~ | c4 r4 c2~\> |
+	c4 c-.\p( c-. c-. ) | c4 r4 r2 | r2 r8. g16\p[( e'8) r16 d16] | c4 r4 r2 |
+	
+	% Recap -- four repeated lines from exposition
+	f2\f~ f8 r8 r4 | r8. d'16[( c8) r16 a16]( f8)[ r16 a16( bes8) r16 c16]( | d4) c-- bes-- a-- | 
+	g2~\accent g8[ r16 g,16 bes8 r16 d16 ] | g2~ g8 r8 r4 |
+	r8. d'16([ c8) r16 a16( ] g8)[ r16 bes16( d8) r16 g16] | 
+	c,2 c4-- c-- | f,2~\accent f4 r | r4 f-- r a-- | r4 bes-- bes,-- r | r4 g'-- r b--
+	
+	r4 c-- c,-- r | r1 | r1 | r1 | r8. g'16 c4~\< c8[ r16 g16] c4~\!
+	
+	% Page 4
+	c8\f[ r16 c,16( c'8) c]~ c8\f[ r16 c,16( c'8) c]~ | c8\f[ r16 c,16( c'8) c]~ c c,16( d) e-. f-. g-. a-. |
+	bes2 g4 e4 | c8 r8 r4 r2 | r1 | r1 | r1 | r1 | r1 | r8. f16-.\mf g-. a-. bes-. c-. d4 c4 | b4 d8( des8 c4) c, |
+	\times 2/3 { f8\f c' bes } \times 2/3 { a g f } \times 2/3 { e f g } \times 2/3 { c, d e } |
+	\times 2/3 { f8 a g } \times 2/3 { f e d } \times 2/3 { cis d e } \times 2/3 { a, b cis } |
+	d4-- g-- c,-- f-- | bes,--\dim e--\! a,-- d-- | r1 | r4 d4 g4. a8 | bes2 c4\> c,\! |
+	\times 2/3 { f8-.\p a-. c-. } \times 2/3 { f-. c-. a-. } \times 2/3 { f'-. c-. a-. } \times 2/3 { f'-. c-. a-. }
+	c1\cresc( | f,4\!) r4 r2 | r4 c\cresc g' c | f4\f r4 r2 |
+	r2 \times 2/3 { r8 d c } \times 2/3 { bes a g } | f4 r f' r4 | f, r4 r2
+	
+	
+}

@@ -1,0 +1,9 @@
+% Lento
+% Page 1
+clarinetMvmtILento = \relative c' {
+	\partial 2 r8. d16\p[( b'8. a16] |
+	g1) | g2.\accent r8. d16( | d'8.[) c16( b8.) c16\<]( b8.[) a16( g8.) e16\!] | 
+	d2~\> d8\![ r16 d16( c'8.) b16( ] | a8.)[ g16( fis8.) g16~ ] g8.[ d16( bes'8.) a16(] |
+	g8.)[ bes16( a8. g16] f2) | << g1~ { s2 s2\< } >> | g4\! r4 r8. d'16\dim( b8.\!) c16( | 
+	b8.[) b16\p( g8.) a16] a2 | fis1\fermata
+}

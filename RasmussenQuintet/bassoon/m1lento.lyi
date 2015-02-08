@@ -1,0 +1,8 @@
+% Lento
+% Page 1
+bassoonMvmtILento = \relative c {
+	\partial 2 r4 r8. c16\p |
+	a'4( c bes a) | gis2\accent( a4) r4 | r8. c,16( c'8.) e,16\<( f8.)[ g16( a8.) bes,16 ] | 
+	c2~\> c8\! r8 r8. c16( | bes'8.)[ a16( g8.) f16 ] f4~ f8 r8 | R1 |
+	<< des1( { s2 s2\< } >> | c4\!) r4 r2 | R1 | c1\p\fermata
+}

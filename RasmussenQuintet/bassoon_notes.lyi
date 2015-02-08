@@ -1,0 +1,16 @@
+\include "bassoon/m1lento.lyi"
+\include "bassoon/m1allegro.lyi"
+
+bassoon = {
+	\time 4/4 \key f \major
+	\tempo "Lento"
+	\clef bass
+	\bassoonMvmtILento
+
+	\tempo "Allegro Moderato"
+	\bar "|:"
+	\bassoonMvmtIAllegro
+	\bar "||"
+	
+	
+}

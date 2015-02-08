@@ -1,0 +1,8 @@
+% Lento
+% Page 1
+oboeMvmtILento = \relative c' {
+	\partial 2 r2 |
+	r2 r8. f16\p( f'8. e16) | d2\accent( c4) r4 | r4 r8. d16\<( c8.[) bes16( a8.) g16] | f2\>( e8\!) r8 r4 | R1 |
+	des'8.[( c16 bes8. aes16] g4..) aes16 | des2~ des8.\<[(f,16 g8. aes16] | a?4\!) r8. bes'16( a8.) r16 r8. d,16\dim( | 
+	c8.\!) r16 r4 r2 | c1\p\fermata
+}
