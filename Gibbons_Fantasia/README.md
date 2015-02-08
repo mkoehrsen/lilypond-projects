@@ -1,0 +1,1 @@
+Transcription of Orlando Gibbons' [3-part Fantasies](http://imslp.org/wiki/Fantasias_of_3_Parts_(Gibbons,_Orlando)) for any combination of 2 trumpets, horn, trombone, tuba.  Work in progress.
