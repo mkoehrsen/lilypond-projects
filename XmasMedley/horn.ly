@@ -1,10 +1,10 @@
 \version "2.14"
 
-\include "common.lyi"
-\include "alto_notes.lyi"
+\include "common.ily"
+\include "alto_notes.ily"
 
 instrument = "Horn"
 
 notes = \transpose f c' \alto
 
-\include "part.lyi"
+\include "part.ily"

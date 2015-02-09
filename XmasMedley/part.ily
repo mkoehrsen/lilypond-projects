@@ -1,6 +1,6 @@
 \version "2.11.57"
 
-\include "common.lyi"
+\include "common.ily"
 
 \paper
 {
@@ -17,7 +17,7 @@
 
 \book
 {
-  \include "header.lyi"
+  \include "header.ily"
   \score
   {
     \new Staff %\with { \consists "Page_turn_engraver" }

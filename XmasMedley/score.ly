@@ -1,10 +1,10 @@
 \version "2.14"
 
-\include "common.lyi"
-\include "soprano_notes.lyi"
-\include "alto_notes.lyi"
-\include "tenor_notes.lyi"
-\include "bass_notes.lyi"
+\include "common.ily"
+\include "soprano_notes.ily"
+\include "alto_notes.ily"
+\include "tenor_notes.ily"
+\include "bass_notes.ily"
 
 instrument = "Score"
 
@@ -27,7 +27,7 @@ instrument = "Score"
 #(set-global-staff-size 16)
 
 \book {
-	\include "header.lyi"
+	\include "header.ily"
 	\score {
 		
 		\new StaffGroup
